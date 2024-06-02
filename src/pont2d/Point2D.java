@@ -5,8 +5,6 @@ public class Point2D {
      float y;
 
     public Point2D() {
-        x = 0;
-        y = 0;
     }
 
     public Point2D(float x, float y) {
