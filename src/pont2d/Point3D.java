@@ -27,7 +27,7 @@ public class Point3D extends Point2D{
 
     public String toString(){
 
-        return String.format("(%f,%f,%f))", x, y,z);
+        return String.format("(%f,%f,%f))", x, y, z);
     }
 
 }

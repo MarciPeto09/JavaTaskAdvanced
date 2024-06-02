@@ -38,6 +38,6 @@ public class Point2D {
         this.y = y;
     }
     public String toString() {
-        return String.format("(%f,%f)", x, y);
+        return  String.format("(%f,%f)", x, y);
     }
 }
