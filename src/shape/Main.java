@@ -1,8 +1,6 @@
 package shape;
 public class Main {
     public static void main(String[] args) {
-        ShapeClass shape = new ShapeClass("red", false);
-        System.out.println(shape);
 
         CircleClass circle = new CircleClass("blue", true, 20);
         System.out.println(circle);

@@ -21,10 +21,11 @@ public class CircleClass extends ShapeClass{
         this.radiusValue = radiusValue;
     }
 
+    @Override
     public double getArea(){
         return (double) Math.PI *Math.pow(radiusValue,2);
     }
-
+    @Override
     public double getPerimeter(){
         return (double) 2 * Math.PI * radiusValue;
     }

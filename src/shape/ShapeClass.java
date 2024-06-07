@@ -1,8 +1,8 @@
 package shape;
 
-public class ShapeClass {
-    private String color;
-    private boolean isFilled;
+public abstract class ShapeClass {
+    protected String color;
+    protected boolean isFilled;
 
     public ShapeClass() {
         this.color = "unknown";
@@ -29,6 +29,8 @@ public class ShapeClass {
     public void setFilled(boolean filled) {
         isFilled = filled;
     }
+    public abstract double getArea();
+    public abstract double getPerimeter();
 
     public String toString(){
         return "Shape with color " + color + " is filled " + isFilled;

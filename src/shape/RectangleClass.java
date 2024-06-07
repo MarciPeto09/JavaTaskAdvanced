@@ -26,10 +26,11 @@ public class RectangleClass extends ShapeClass {
     public void setHeight(double height) {
         this.height = height;
     }
+    @Override
     public double getArea(){
         return  width * height;
     }
-
+    @Override
     public double getPerimeter(){
         return 2 * (width + height);
     }
