@@ -10,5 +10,9 @@ public class Main {
         point3D.setXY(8,4);
         System.out.println(point3D);
 
+        LineClass line = new LineClass(10, 20, 30, 40);
+        System.out.println(line.lengthSetPoint());
+        System.out.println(line.getMiddlePoint());
+
     }
 }
