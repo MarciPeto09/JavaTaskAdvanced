@@ -20,25 +20,23 @@ public class MovablePoint implements Movable {
     public int moveDown() {
         y -= speedY;
         return y;
-    }
-
-    ;
+    };
 
     @Override
     public int moveLeft() {
         x -= speedX;
         return x;
-    }
+    };
 
-    ;
+
 
     @Override
     public int moveRight() {
         x += speedX;
         return x;
-    }
+    };
 
-    ;
+
 
     @Override
     public String toString() {

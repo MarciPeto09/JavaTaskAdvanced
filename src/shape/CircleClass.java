@@ -1,7 +1,11 @@
 package shape;
 
-public class CircleClass extends ShapeClass{
-    private int radiusValue;
+public class CircleClass extends ShapeClass implements GeometricObject{
+    public int radiusValue;
+
+    public CircleClass(int radiusValue) {
+        this.radiusValue = radiusValue;
+    }
 
     public CircleClass(String color, boolean isFilled) {
         super(color, isFilled);

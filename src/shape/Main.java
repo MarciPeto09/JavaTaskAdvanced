@@ -13,6 +13,23 @@ public class Main {
         SquareClass square = new SquareClass("green", false, 40, 40);
         System.out.println(square);
         System.out.println("Siperfaqja e katrorit eshte " + square.getArea() + " me perimeter " + square.getPerimeter());
+
+    //task 7
+        System.out.println("Print i task 7");
+
+        CircleClass circleGeometricObject = new CircleClass(14);
+        System.out.println(circleGeometricObject.getArea());
+        System.out.println(circleGeometricObject.getPerimeter());
+        System.out.println(circleGeometricObject);
+
+        Resizable resizable = new ResizableCircle(40);
+        resizable.resize(30);
+        System.out.println(resizable);
     }
+
+//    public static interface GeometricObject {
+//        double getPerimeter();
+//        double getArea();
+//   }
 }
 
